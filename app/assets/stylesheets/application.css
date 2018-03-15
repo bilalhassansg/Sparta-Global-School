@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+td {
+	
+	color:green;
+	font-size: 150%;
+}
+
+th {
+
+	color: blue;
+	font-size: 150%;
+}
+
+.school_img {
+
+	height: 20%;
+	width: 20%;
+
+}
