@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lesson_name: MyString
+  no_of_students: 
+  teacher_id: 
+
+two:
+  lesson_name: MyString
+  no_of_students: 
+  teacher_id: 
