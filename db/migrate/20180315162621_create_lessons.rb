@@ -1,4 +1,6 @@
 class CreateLessons < ActiveRecord::Migration[5.1]
+	belongs_to :teachers
+	belongs_to :students
   def change
     create_table :lessons do |t|
       t.string :lesson_name
