@@ -3,7 +3,7 @@ class CreateTeachers < ActiveRecord::Migration[5.1]
     create_table :teachers do |t|
       t.string :name
       t.string :type
-      t.int :lesson_id
+      t.integer :lesson_id
 
       t.timestamps
     end
